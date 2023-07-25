@@ -1,0 +1,103 @@
+.bg {
+    background: url(../images/7598163.jpg) fixed center top no-repeat;
+    background-size: cover;
+}
+.bg .box {margin:0 auto;}
+/* box1 */
+.bg .box1 { 
+    display: flex; flex-flow: column nowrap; align-items: center;
+    padding: 100px 0;
+}
+.bg .box1 .profil {
+    width: 200px; height: 200px;
+    border: 6px solid #fff; border-radius: 100%;
+    overflow: hidden; 
+    animation: top_btm 1.5s linear alternate infinite;
+}
+.bg .box1 .profil img {width: 100%;}
+.bg .box1 h1 {
+    font-size: 2rem; font-weight: 600; letter-spacing: -0.02em;
+    margin-top: 20px;
+}
+.bg .box1 .bar {
+    width: 300px; height: 10px; background-color: #fff;
+    border-radius: 30px; margin: 25px 0 40px;
+}
+.bg .box1 .bar span {}
+.bg .box1 p {
+    font-weight: 600; letter-spacing: -0.02;
+    margin-bottom: 30px;
+}
+.bg .box1 .items {margin-bottom: 30px;}
+.bg .box1 .items a {}
+.bg .box1 .items .git {}
+.bg .box1 .items .git img {width: 25px;}
+.bg .box1 .items .not {}
+.bg .box1 .items .not img {width: 25px;}
+.bg .box1 .items .por {}
+.bg .box1 .items .por img {width: 25px;}
+.bg .box1 .icons {display: flex; flex-flow: column nowrap; align-items: center;}
+.bg .box1 .icons span {
+    display: block;
+    background-color: black; width: 30px; height: 4px;
+    border-radius: 5px;
+} 
+.bg .box1 .icons .top {
+}
+.bg .box1 .icons .center {
+    margin: 5px;
+}
+.bg .box1 .icons .btm {}
+/* box2 */
+.bg .box2 {}
+.bg .box2 .left {
+    height: 200px; width: 150%;
+    background: url(../images/bg2.png) repeat-x;
+    animation: left 7s linear infinite;
+    transform: rotate(-10deg) translateX(-100px);
+}
+.bg .box2 .right {
+    height: 200px;
+    background: url(../images/bg3.png) repeat;}
+/* box3 */
+.bg .box3 {
+    width: 1260px; padding: 150px 0;
+    display: flex; flex-flow: row nowrap;
+    justify-content: center; align-items: center;
+}
+.bg .box3 a {
+    display: block; border-radius: 100px 100px 0 0;
+    background-color: #fff;
+    margin: 15px;
+    background: url(../images/web.png) center bottom 50px;
+    background-size: calc(150%); 
+    transition: all 0.3s;
+}
+.bg .box3 a:hover {
+    box-shadow: 5px 5px 10px rgb(66, 66, 66);
+    background-size: calc(160%);
+}
+.bg .box3 a div {background-color: #fff; margin-top: 200px; padding: 20px 50px 10px;}
+.bg .box3 a div h2 {text-align: center;font-weight: 600; letter-spacing: -0.02em;}
+.bg .box3 a div p {text-align: center; letter-spacing: -0.02em;margin: 10px 0 10px;}
+.bg .box3 .box_0 {height: 250px;}
+.bg .box3 .box_1 {height: 250px;}
+.bg .box3 .box_2 {height: 250px;}
+.bg .box3 .box_3 {height: 250px;}
+/* box4 */
+.bg .box4 {padding: 50px 0 200px;}
+.bg .box4 p {
+    font-size: 2rem; color: #fff; text-align: center;
+    text-shadow: 1px 1px 4px black;
+}
+.bg .box4 .p_top {margin-bottom: 15px;}
+.bg .box4 .p_btm {}
+/*key*/
+@keyframes top_btm {
+    0% {transform: translateY(0px);}
+    100% {transform: translateY(-40px);}
+}
+@keyframes left {
+    0% {background-position-x: 0;}
+    100% {background-position-x: -1000px;}
+}
